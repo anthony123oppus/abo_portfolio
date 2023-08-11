@@ -12,32 +12,32 @@ import {
 export const socialMedia = [
   {
     name: 'Youtube',
-    path: '/',
+    path: 'https://www.youtube.com',
     icon: <RiYoutubeFill />,
   },
   {
     name: 'Instagram',
-    path: '/',
+    path: 'https://www.instagram.com',
     icon: <RiInstagramFill />,
   },
   {
     name: 'Facebook',
-    path: '/',
+    path: 'https://www.facebook.com',
     icon: <RiFacebookFill />,
   },
   {
     name: 'Linkedin',
-    path: '/',
+    path: 'https://www.linkedin.com',
     icon: <RiLinkedinFill />,
   },
   {
     name: 'Dribbble',
-    path: '/',
+    path: 'https://www.dribbble.com',
     icon: <RiTwitterFill />,
   },
   {
     name: 'Pinterest',
-    path: '/',
+    path: 'https://www.pinterest.com',
     icon: <RiPinterestFill />,
   },
 ]
@@ -56,6 +56,8 @@ const Socials = () => {
                       className='bg-black/60 translate-z-0 hover:bg-transparent xl:p-1 rounded-[5px] border-2 group hover:text-accent hover:border-accent hover:scale-125 xl:hover:translate-y-3 transition-all duration-300' 
                         href={link.path} 
                         key={index}
+                        target='_blank'
+                        rel='noopener noreferrer'
                       >
                         <div>{link.icon}</div>
                         <div className='xl:opacity-0 xl:border-solid xl:border-b-accent xl:border-b-8 xl:border-x-transparent

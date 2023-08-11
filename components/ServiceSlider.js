@@ -24,27 +24,27 @@ const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'I excel at crafting captivating brand identities, including logos, color schemes, and website interfaces, to enhance user experiences.',
   },
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Experience i standout design services that bring your ideas to life with captivating visuals. Lets collaborate to turn your concepts into extraordinary.',
   },
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'I focus on user-friendliness and cutting-edge technologies, lets collaborate to bring your vision to life and shape the future together.',
   },
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Elevate your brand with my persuasive copywriting service. Our expert team crafts compelling content that captivates and drives results.',
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'We can enhance your website visibility in search results, driving organic traffic and improving rankings through keyword optimization.',
   },
 ];
 
@@ -79,9 +79,9 @@ const ServiceSlider = () => {
                 {/* icon */}
                 <div className='text-4xl text-accent mb-4 group-hover:scale-110 transition-all duration-300'>{item.icon}</div>
                 {/* title / desc */}
-                <div className='mb-8'>
+                <div className='mb-5'>
                   <div className='mb-1 text-lg group-hover:underline'>{item.title}</div>
-                  <p className='max-w-[350px] leading-normal text-lg'>{item.description}</p>
+                  <p className='max-w-[350px] leading-normal text-[16px] text-justify '>{item.description}</p>
                 </div>
                 {/* arrow */}
                 <div className='text-3xl'>

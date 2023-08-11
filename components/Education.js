@@ -35,6 +35,7 @@ const Education = () => {
                       className='justify-center items-center group hover:text-accent hover:border-accent hover:scale-110 xl:hover:translate-x-4 transition-all duration-300' 
                         href={link.path} 
                         key={index}
+                        target='_blank' rel='noopener noreferrer'
                       >
                         <Image src={link.icon} width={60} height={60} alt='' className='hidden xl:flex xl:bg-white xl:rounded-full border-2'/>
                         <div className='xl:opacity-0 xl:border-solid xl:border-r-white xl:border-r-8 xl:border-y-transparent

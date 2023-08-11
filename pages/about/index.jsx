@@ -29,22 +29,22 @@ export const aboutData =  [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaHtml5 key="html" />,
+          <FaCss3 key="css" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="next" />,
+          <SiFramer key="framer" />,
+          <FaWordpress key="wordpress" />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />, <SiAdobeillustrator />],
+        icons: [<FaFigma key='figma'/>, <SiAdobexd key='adobexd' />, <SiAdobephotoshop key='photoshop' />, <SiAdobeillustrator key='illustrator' />],
       },
       {
         title: 'Hardware Development',
-        icons: [<SiArduino />],
+        icons: [<SiArduino key='arduino' />],
       },
     ],
   },
@@ -65,24 +65,16 @@ export const aboutData =  [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - Hazong Company',
-        stage: '2022 - 2023',
-      },
-      {
         title: 'Arduino Developer - MAM Team',
         stage: '2022 - 2023',
       },
       {
-        title: 'Web Developer - Hazong.co Agency',
-        stage: '2021 - 2022',
-      },
-      {
         title: 'On The Job Training - Sonsay Microsystem',
-        stage: 'january 2018 - March 2018',
+        stage: 'January 2018 - March 2018',
       },
       {
         title: 'Intern - Engineering Office',
-        stage: 'july 2021 - August 2021',
+        stage: 'June 2021 - August 2021',
       },
     ],
   },
@@ -125,7 +117,7 @@ const About = () => {
         <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
           <div className='flex-1 flex flex-col justify-center z-10'>
             <motion.h2 variants={fadeIn('down', 0.4)} initial='hidden' animate='show' exit='hidden' className='h2 capitalize font-bold'>
-              Captivating <span className='bg-gradient-to-br from-accent to-black text-transparent bg-clip-text'>stories</span> birth magnificent designs.
+              Captivating <span className='text-transparent bg-clip-text bg-gradient-to-tl from-[#330000] from-20% via-[#ff0000] via-50% to-[#330000] to-80%'>stories</span> birth magnificent designs.
             </motion.h2>
             <motion.p variants={fadeIn('up', 0.6)} initial='hidden' animate='show' exit='hidden' className='max-w-[500px] mx-auto xl:mx-0 xl:mb-12 px-2 xl:px-0 xl:text-[19px]'>
               Collaboration is my secret ingredient for success. I revel in teamwork, where collective brilliance sparks fresh ideas and 

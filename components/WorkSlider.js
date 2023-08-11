@@ -18,39 +18,19 @@ export const workSlider = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/work1.png',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/work2.png',
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/work3.png',
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: 'title',
-          path: '/thumb4.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb1.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb2.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb3.jpg',
+          path: '/work4.png',
         },
       ],
     },
@@ -58,19 +38,40 @@ export const workSlider = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/work5.png',
         },
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/work6.png',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/work7.png',
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/work8.png',
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: 'title',
+          path: '/work7.png',
+          desc: 'this is my work',
+        },
+        {
+          title: 'title',
+          path: '/work5.png',
+        },
+        {
+          title: 'title',
+          path: '/work3.png',
+        },
+        {
+          title: 'title',
+          path: '/work8.png',
         },
       ],
     },
