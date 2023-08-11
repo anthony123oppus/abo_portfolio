@@ -30,7 +30,7 @@ const Home = () => {
               <Education />
             </div>
             <motion.h1 variants={fadeIn('down', 0.2)} initial='hidden' animate='show' exit='hidden' className='h1 font-bold z-0'>
-              Hello, I'm  Anthony<br />
+              Hello, I&rsquo;m  Anthony<br />
               <span className='text-transparent bg-clip-text bg-gradient-to-tl from-[#330000] from-20% via-[#ff0000] via-50% to-[#330000] to-80%'>Front End Developer</span>
             </motion.h1>
             <motion.p variants={fadeIn('up', 0.3)} initial='hidden' animate='show' exit='hidden' className='max-w-sm text-xl z-0 xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>

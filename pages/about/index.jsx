@@ -129,7 +129,7 @@ const About = () => {
                   <div className='text-10xs xl:text-4xl mb-2 font-extrabold bg-gradient-to-bl from-accent to-black text-transparent bg-clip-text'>
                     <CountUp start={0} end={24} duration={5} /> +
                   </div>
-                  <div className='text-[10px] xl:text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>Months of experience</div>
+                  <div className='text-[10px] xl:text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>Months of experience&rsquo;s</div>
                 </div>
                 <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                   <div className='text-10xs xl:text-4xl mb-2 font-extrabold bg-gradient-to-bl from-accent to-black text-transparent bg-clip-text'>
