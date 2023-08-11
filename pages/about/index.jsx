@@ -105,7 +105,7 @@ import CountUp from 'react-countup';
 
 const About = () => {
   const [index, setIndex] = useState(0);
-  console.log(index);
+  // console.log(index);
   return (
     <div className='bg-primary/60 h-full'>
       <div className='h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 py-40 text-center xl:text-left'>
