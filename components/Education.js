@@ -37,7 +37,7 @@ const Education = () => {
                         key={index}
                         target='_blank' rel='noopener noreferrer'
                       >
-                        <Image src={link.icon} width={60} height={60} alt='' className='hidden xl:flex xl:bg-white xl:rounded-full border-2'/>
+                        <Image src={link.icon} width={60} height={60} alt='education' className='hidden xl:flex xl:bg-white xl:rounded-full border-2'/>
                         <div className='xl:opacity-0 xl:border-solid xl:border-r-white xl:border-r-8 xl:border-y-transparent
                          xl:border-y-[5px] xl:border-l-0 xl:absolute xl:bottom-[27.3px]  xl:-left-2 group-hover:opacity-[100%] group-hover:border-acccent'></div>
                       </Link>

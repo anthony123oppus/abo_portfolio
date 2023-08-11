@@ -20,9 +20,9 @@ const FormContact = () => {
     };
   if (state.succeeded && ExitState) {
       return (
-        <div className=" flex justify-center items-center w-full h-[500px] xl:h-full">
-          <div className="flex flex-col gap-10 justify-center items-center my-4 mt-24 xl:mt-0 h-full xl:h-[500px] max-w-md xl:max-w-none xl:w-[600px] rounded-xl bg-white/20 backdrop-filter backdrop-blur-xl shadow-lg">
-              <Image src={'/submitted.png'} width={500} height={500} className="w-40 h-40" />
+        <div className=" flex justify-center items-end xl:items-center w-full h-[500px] xl:h-full">
+          <div className="flex flex-col gap-6 xl:gap-10 justify-center items-center my-4 mt-2 xl:mt-0 h-[400px] xl:h-[500px] max-w-md xl:max-w-none xl:w-[600px] rounded-xl bg-white/20 backdrop-filter backdrop-blur-xl shadow-lg">
+              <Image src={'/submitted.png'} width={150} height={150} alt="" />
               <h1 className="text-2xl px-10 xl:px-0 xl:text-3xl text-center">Message Successfully Submitted</h1>
               <button onClick={handleExitClick} 
                 className='relative w-[185px] h-[40px] flex justify-center items-center bg-black/50 border-4 rounded-full xl:group-hover:bg-slate-800/80 hover:scale-110 transition-all duration-500'>Exit
