@@ -9,14 +9,14 @@ const Avatar = () => {
       <Link href={'/'} target='_blank' rel='noopener noreferrer'>
       <Image src={'/hazco-icon.png'} width={60} height={60} alt='Hazong' className='absolute top-40 left-40 rounded-full border-8 hover:animate-bounce '/>
       </Link>
-      <Link href={'/'} target='_blank' rel='noopener noreferrer'>
+      <Link href={'https://www.facebook.com/bisuofficail?mibextid=ZbWKwL'} target='_blank' rel='noopener noreferrer'>
       <Image src={'/bisu-icon.png'} width={80} height={80} alt='BISU' className='absolute top-80 left-10 rounded-full border-8 hover:animate-bounce '/>
       </Link>
-      <Link href={'/'} target='_blank' rel='noopener noreferrer'>
-      <Image src={'/bisu-icon.png'} width={50} height={50} alt='DES' className='absolute bottom-40 right-[160px] rounded-full border-8 hover:animate-bounce '/>
+      <Link href={'https://www.facebook.com/profile.php?id=1000640619831&mibextid=ZbWKwL'} target='_blank' rel='noopener noreferrer'>
+      <Image src={'/des-icon.jpg'} width={50} height={50} alt='DES' className='absolute bottom-40 right-[160px] rounded-full border-8 hover:animate-bounce '/>
       </Link>
-      <Link href={'/'} target='_blank' rel='noopener noreferrer'>
-      <Image src={'/bisu-icon.png'} width={70} height={70} alt='BNHS' className='absolute bottom-80 right-40  rounded-full border-8 hover:animate-bounce '/>
+      <Link href={'https://www.facebook.com/bilarhigh?mibexit=ZbWKwL'} target='_blank' rel='noopener noreferrer'>
+      <Image src={'/bnhs-icon.jpg'} width={70} height={70} alt='BNHS' className='absolute bottom-80 right-40  rounded-full border-8 hover:animate-bounce '/>
       </Link>
     </div>
   );

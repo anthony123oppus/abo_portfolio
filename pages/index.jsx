@@ -26,9 +26,9 @@ const Home = () => {
         <div className='text-center h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
           <div className='text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto'>
             {/* education */}
-            <div className='absolute translate-z-0 left-20 bottom-25'>
+            {/* <div className='absolute translate-z-0 left-20 bottom-25'>
               <Education />
-            </div>
+            </div> */}
             <motion.h1 variants={fadeIn('down', 0.2)} initial='hidden' animate='show' exit='hidden' className='h1 font-bold z-0'>
               Hello, I&rsquo;m  Anthony<br />
               <span className='text-transparent bg-clip-text bg-gradient-to-tl from-[#330000] from-20% via-[#ff0000] via-50% to-[#330000] to-80%'>Front End Developer</span>
